@@ -1,1 +1,0 @@
-document.writeln("<font color=\'#ff0000\'>V17</font> <a class =\'gxys\'href=\'https://www.52xd.tv\' target=\'_blank\'>前往下载</a> <p>更新主题：<a class =\'gxys\' href=\'../../../index.php/label/update.html\'>点击更新</a></p> <p>更新说明：有新版本先更新下载上传模板，然后点击更新主题</p>");
