@@ -44,6 +44,8 @@
                            <span class="item hidden_xs">阅读 {$obj.art_hits}</span>
                       </div>
                   </header>
+                  {php}require('./addons/AdManager/html/lywq_ads_article.html');{/php}<!--文章页内嵌广告-->
+                  {php}require('./addons/AdManager/html/lywq_ads_articleF.html');{/php}<!--文章页漂浮广告-->
                   {include file="ads/ads_artw"}
                   <article class="article_content"> 
 					  <div>{$obj.art_page_list[$param['page']]['content']|mac_url_content_img}</div> 

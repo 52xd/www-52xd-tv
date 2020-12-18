@@ -207,6 +207,8 @@
        </div>
      <div class="container">
         <div class="left_row fl">
+        	{php}require('./addons/AdManager/html/lywq_ads_play.html');{/php}<!--播放页内嵌广告-->
+        	{php}require('./addons/AdManager/html/lywq_ads_playF.html');{/php}<!--播放页漂浮广告-->
             {include file="ads/ads_vodw"} 
 			{if condition="$conch['theme']['actor']['btn'] eq 1"}
 		        {if condition="$obj.vod_actor neq ''"}

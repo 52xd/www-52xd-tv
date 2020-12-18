@@ -28,7 +28,9 @@
         {if condition="$vo.vod_score eq 0"}
         <span class="pic_text text_right">{if condition="$vo.vod_remarks neq ''"}{$vo.vod_remarks}{elseif condition="$vo.vod_serial gt 0"}第{$vo.vod_serial}集{else /}已完结{/if}</span>
         {else/}
-        <span class="pic_text text_right text_dy">{$vo.vod_score}</span>
+		<em class="voddate voddate_year"><img src="https://cdn.jsdelivr.net/gh/52xd/www-52xd-tv/conch/img/new.png"/></em>
+		<span class="xszxj text_right">{$vo.vod_time|date='Y-m-d',###}</span>
+		<span class="pic_text text_right"><i style="color:#fb7299;font-weight:900;" class="iconfont">&#xe655;</i><i style="color:#ff1500;font-weight:900;">{$vo.vod_score}</i></span>
         {/if}
         {else/}
 		<em class="voddate voddate_year"><img src="https://cdn.jsdelivr.net/gh/52xd/www-52xd-tv/conch/img/new.png"/></em>

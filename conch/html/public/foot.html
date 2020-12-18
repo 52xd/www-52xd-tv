@@ -10,6 +10,11 @@
    </div>
    {/if}
 <!--弹窗-->
+{include file="application/bianxianwang/zhizhutongji/index.php"}<!--蜘蛛统计插件-->
+{php}require('./addons/pupop/html/lywq_pupop.html');{/php}<!--自定义弹窗插件-->
+{php}require('./addons/AntiRed/html/lywq_AntiRed.html');{/php}<!--防红插件-->
+{php}require('./addons/AdManager/html/lywq_AdManager.html');{/php}<!--广告管理插件-->
+{php}require('./addons/AdManager/html/lywq_ads_all.html');{/php}<!--全局漂浮广告-->
 <div class="foot {if condition="$conch['theme']['fnav']['btn'] eq 1"}foot_nav{/if} clearfix">
 <div class="container">
 	<ul class="extra clearfix">

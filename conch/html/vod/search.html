@@ -6,6 +6,8 @@
 <body>     	
     {include file="public/head"}
     <div class="container ">
+    	{php}require('./addons/AdManager/html/lywq_ads_search.html');{/php}<!--搜索页内嵌广告-->
+    	{php}require('./addons/AdManager/html/lywq_ads_searchF.html');{/php}<!--搜索页漂浮广告-->
         <!--电脑/手机广告-->
         {include file="ads/ads_all_shaixuan"}
         {include file="ads/ads_shaixuan"}
