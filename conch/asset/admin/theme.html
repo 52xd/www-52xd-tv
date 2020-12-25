@@ -1765,6 +1765,25 @@
                 <!--魔改设置-->
                 <div class="layui-tab-item">
                  <fieldset class="layui-elem-field">
+                   <legend>底部添加关键词 增加SEO收录</legend>
+                   <div class="layui-field-box">
+                        <div class="layui-form-item">
+                        <label class="layui-form-label">显示状态</label>
+                        <div class="layui-input-inline w200">
+                            <input type="radio" name="theme[seotxt][btn]" value="0" title="隐藏" {if condition="$conch['theme']['seotxt']['btn'] eq 0"}checked {/if}> 
+                            <input type="radio" name="theme[seotxt][btn]" value="1" title="显示" {if condition="$conch['theme']['seotxt']['btn'] eq 1"}checked {/if}>  
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">隐藏后页面不显示关键词（建议隐藏，如显示更易收录就显示出来）</div>
+                        </div>
+                        <div class="layui-form-item">
+                        <label class="layui-form-label">关键词内容</label>
+                        <div class="layui-input-block">
+                            <textarea name="theme[seotxt][text]" class="layui-textarea"  placeholder="请输入关键词，多个关键词用“,”分隔，支持html代码">{$conch['theme']['seotxt']['text']}</textarea>
+                        </div>
+                        </div>
+                   </div>
+                 </fieldset>
+                 <fieldset class="layui-elem-field">
 				   <legend>顶部导航超链接</legend>
 				   <div class="layui-field-box">
 				    <div class="layui-form-item">
