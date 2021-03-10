@@ -1435,7 +1435,7 @@ font-size: 0.325rem;
 	.link_text li {float: none;display: inline-block;}
 	
 	/* foot */
-	.foot.foot_nav {padding-bottom: 1.25rem;}
+	.foot.foot_nav {padding-bottom: 0rem;}
 	.foot_nav .extra{bottom: 2rem;}
 	.foot.foot_nav.foot_stem {padding-bottom: 100px;}
 	.foot_nav.foot_stem .hl_bottom_ads{bottom: 1.35rem;}
